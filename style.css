@@ -1,0 +1,8 @@
+.header{
+     background-color: rgb(252, 129, 58);
+  width: 100%;
+}
+.container{
+max-width: 100%;
+  margin: 0 auto;
+}
