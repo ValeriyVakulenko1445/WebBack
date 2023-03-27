@@ -1,0 +1,27 @@
+.ul_nav{
+    text-overflow: inherit;
+    text-align: center;
+    margin-right: 40vh;
+    margin-top: -10vh;
+}
+.Home 
+{
+    font-family: 'Pooppins',sans-serif;
+    display: grid;
+    text-align: center;
+}
+.HTML_forms{
+    font-family: 'Pooppins',sans-serif;
+    display: grid;
+    text-align: center;
+}
+.Git{
+    font-family: 'Pooppins',sans-serif;
+    display: grid;
+    text-align: center;
+}
+.Repos{
+    font-family: 'Pooppins',sans-serif;
+    display: grid;
+    text-align: center;
+}
