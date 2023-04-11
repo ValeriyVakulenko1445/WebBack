@@ -1,3 +1,5 @@
+<?php
+header('content-Type: text/html;charset=UTF-8');
 $user = 'db';
 $pass = '123';
 $db = new PDO('mysql:host=localhost;dbname=test',
