@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST'){
 print_r('Не POST методы не принимаются');
 }
 $errors = FALSE;
-if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['year']) || empty($_POST['bio']) || empty($_POST['check1']) || $_POST['check1'] == false || !isset($_POST['super']) ){
+if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['year']) || empty($_POST['bio']) || empty($_POST['check1']) || $_POST['check1'] == false  ){
 print_r('Заполните пустые поля!');
 exit();
 }
