@@ -1,0 +1,33 @@
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+	<title>Задание 2</title>
+</head>
+
+<body>
+    <h2>GET HTTP/1.0</h2>
+    <img id="http1.0" src="1.png" alt="http1.0" style="width:1000px;height:auto"><br>
+	<p>Получаем главную страницу методом Get в протоколе HTTP 1.0</p>
+	<br><h2>GET HTTP/1.1</h2>
+    <img id="http2.0" src="2.png" alt="http1.0" style="width:1000px;height:auto"><br>
+	<p>Получаем внутреннюю страницу через Get в протоколе HTTP 1.1</p>
+	<br><h2>Размер file.tar.gz</h2>
+	<img id="size" src="3.png" alt="size" style="width:1000px;height:auto"><br>
+	<p>Получаем размер файла file.tar.gz, не скачивая его. Ответ от сервера Content Lenght равен 11k(11335)</p>
+  <br><h2>Медиатип image.png</h2>
+    <img id="type" src="4.png" alt="type" style="width:1000px;height:auto"><br>
+	<p>С помощью HEAD определяем медиатип image.png. Ответ от сервера Content type равен image/png</p>
+	<br><h2>Отправка комментария</h2>
+    <img id="message" src="5.png" alt="message" style="width:1000px;height:auto"><br>
+	<p>С помощью POST отправляем message "Hello world"</p>
+	<br><h2>Получение 100 байт файла</h2>
+	<img id="post" src="6.png" alt="post" style="width:1000px;height:auto"><br>
+	<p>С помощью Range получаем первые 100 байт файла</p>
+	<br><h2>Кодировка index.php</h2>
+	<img id="head" src="7.png" alt="head" style="width:1000px;height:auto"><br>
+	<p>С помощью HEAD определяем кодировку index.php. Ответ от сервера Content Type, charset=UTF-8</p>
+
+	
+</body>
+
+</html>
